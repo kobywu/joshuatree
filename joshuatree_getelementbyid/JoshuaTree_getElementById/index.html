@@ -1,0 +1,42 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+		<title>Joshua Tree</title>
+		<link rel="stylesheet" href="style.css" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+	</head>
+
+	<body>
+		<!-- this is the column on the left -->
+		<div class="narrow-col">
+			<div class="box">
+				<div class="small-box blue" id="one" onclick="toggleBlueBackground1(this)"></div>
+			</div>
+			<div class="box">
+				<div class="small-box blue" id="two" onclick="toggleBlueBackground2(this)"></div>
+			</div>
+		</div>
+		
+		<!-- this is the center column -->
+		<!-- naming conventions for HTML/CSS/JS: https://stackoverflow.com/questions/1696864/naming-class-and-id-html-attributes-dashes-vs-underlines -->
+		<div class="wide-col" id="jtree-background">
+			<img src="images/jtree.jpg" onclick="resetAll(this)"/>
+		</div>
+		
+		<!-- this is the column on the right -->
+		<div class="narrow-col">
+			<div class="box">
+				<div class="small-box blue" id="three" onclick="toggleBlueBackground3(this)"></div>
+			</div>
+			<div class="box">
+				<div class="small-box blue" id="four" onclick="toggleBlueBackground4(this)"></div>
+			</div>
+		</div>
+		
+		<script src="script.js"></script>
+	</body>
+	
+</html>

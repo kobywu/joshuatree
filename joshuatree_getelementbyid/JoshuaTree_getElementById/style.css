@@ -1,0 +1,61 @@
+
+
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	background-color: #000000;
+	display: flex;
+	font-family: 'Roboto', sans-serif, bold;
+}
+
+/* cool hover effects to enhance User Experience */
+img {
+	max-width: 90%;
+	max-height: 90%;
+	opacity: 1.0;
+	transition: .3s ease-in-out;
+}
+
+img:hover {
+	opacity: 0.8;
+}
+
+.wide-col {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: calc(100vw/2);
+}
+
+.narrow-col {
+	display: block;
+	height: 100vh;
+	width: calc(100vw/4);
+}
+
+.box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50%;
+	width: 100%;
+}
+
+.small-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 12.5vw;
+	width: 12.5vw;
+}
+
+.blue {
+	background-color: #a2adbf;
+}
+
+.tan {
+	background-color: #c8a36f;
+}
+
